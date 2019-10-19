@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/rafm/Documents/Programming/C++/RockPaperScissors/Player.h
+
+/Users/rafm/Documents/Programming/C++/RockPaperScissors/RockPaperScissors.cpp
+iostream
+-
+string
+-
+vector
+-
+RockPaperScissors.h
+/Users/rafm/Documents/Programming/C++/RockPaperScissors/RockPaperScissors.h
+Player.h
+/Users/rafm/Documents/Programming/C++/RockPaperScissors/Player.h
+
+/Users/rafm/Documents/Programming/C++/RockPaperScissors/RockPaperScissors.h
+Player.h
+/Users/rafm/Documents/Programming/C++/RockPaperScissors/Player.h
+
