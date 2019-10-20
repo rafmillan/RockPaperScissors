@@ -4,16 +4,17 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include <random>
 #include "RockPaperScissors.h"
 #include "Player.h"
 
-int playGame(Player& p1, Player& p2){
+int playGame(Player& p1, Player& p2, int seed){
   bool winner = false, validInput = false;
   std::string replay = " ";
   std::vector<std::string> valid = {"y", "yes", "(y)es", "n", "no", "(n)o"};
   do {
     promptPlayer(p1);
-    promptAi(p2);
+    promptAi(p2, seed);
     if (compare(p1, p2) == 1 || compare(p1, p2) == 2) {
       winner = true;
     }
@@ -34,7 +35,6 @@ int playGame(Player& p1, Player& p2){
   }while(!validInput);
   return 0;
 }
-
 void promptPlayer(Player& player){
   std::vector<std::string> valid = {"r", "rock", "(r)ock", "p", "paper", "(p)aper", "s", "scissors", "(s)cissors"};
   std::string input;
@@ -61,19 +61,21 @@ void promptPlayer(Player& player){
     player.setMove(move);
   }while(!validInput);
 }
-
-void promptAi(Player& ai){
+void promptAi(Player& ai, int seed){
   //Todo implement random number generator to generate move
-  int move;
+  int move, min = 0, max = 2;
+  std::minstd_rand generator(seed);
+  move = getRandomInt(min, max, generator);
+  std::cout << move << std::endl;
   ai.setMove(move);
   if(move == 0){//rock
-    std::cout << "The ai played rock.";
+    std::cout << "The ai played rock." << std::endl;
   }
   else if(move == 1){//paper
-    std::cout << "The ai played paper.";
+    std::cout << "The ai played paper." << std::endl;
   }
   else if(move == 2){//scissors
-    std::cout << "The ai played scissors.";
+    std::cout << "The ai played scissors." << std::endl;
   }
 }
 
@@ -82,33 +84,32 @@ int compare(Player& player, Player& ai){
   //1>0>2>1
   int x = 2;
   if(player.getMove() == ai.getMove()){
-    std::cout << "Keep playing until someone wins.";
+    std::cout << "Keep playing until someone wins." << std::endl;
     return 2;
   }
   else if(player.getMove() == 0 && ai.getMove() == 1){
     x = 0;
-    std::cout << "The AI wins :(";
+    std::cout << "The AI wins :(" << std::endl;
   }
   else if(player.getMove() == 0 && ai.getMove() == 2){
     x = 1;
-    std::cout << "You win!";
+    std::cout << "You win!" << std::endl;
   }
   else if(player.getMove() == 1 && ai.getMove() == 0){
     x = 1;
-    std::cout << "You win!";
+    std::cout << "You win!" << std::endl;
   }
   else if(player.getMove() == 1 && ai.getMove() == 2){
     x = 0;
-    std::cout << "The AI wins :(";
+    std::cout << "The AI wins :(" << std::endl;
   }
   else if(player.getMove() == 2 && ai.getMove() == 0){
     x = 0;
-    std::cout << "The AI wins :(";
+    std::cout << "The AI wins :(" << std::endl;
   }
   else if(player.getMove() == 2 && ai.getMove() == 1){
     x = 1;
-    std::cout << "You win!";
+    std::cout << "You win!" << std::endl;
   }
   return x;
 }
-
