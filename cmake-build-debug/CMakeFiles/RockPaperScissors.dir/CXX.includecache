@@ -8,23 +8,17 @@
 
 /Users/rafm/Documents/Programming/C++/RockPaperScissors/Player.h
 
-/Users/rafm/Documents/Programming/C++/RockPaperScissors/RockPaperScissors.cpp
-iostream
--
-string
--
-vector
--
+/Users/rafm/Documents/Programming/C++/RockPaperScissors/RockPaperScissors.h
+Player.h
+/Users/rafm/Documents/Programming/C++/RockPaperScissors/Player.h
 random
+-
+
+/Users/rafm/Documents/Programming/C++/RockPaperScissors/main.cpp
+iostream
 -
 RockPaperScissors.h
 /Users/rafm/Documents/Programming/C++/RockPaperScissors/RockPaperScissors.h
 Player.h
 /Users/rafm/Documents/Programming/C++/RockPaperScissors/Player.h
-
-/Users/rafm/Documents/Programming/C++/RockPaperScissors/RockPaperScissors.h
-Player.h
-/Users/rafm/Documents/Programming/C++/RockPaperScissors/Player.h
-random
--
 

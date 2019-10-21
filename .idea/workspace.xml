@@ -12,10 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2ef0c85-0ebf-4474-b1bc-087ddbc9fe8d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RockPaperScissors.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/RockPaperScissors.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RockPaperScissors.h" beforeDir="false" afterPath="$PROJECT_DIR$/RockPaperScissors.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RockPaperScissors.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RockPaperScissors.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RockPaperScissors.dir/RockPaperScissors.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RockPaperScissors.dir/RockPaperScissors.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RockPaperScissors.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RockPaperScissors.dir/main.cpp.o" afterDir="false" />
@@ -56,7 +53,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="RockPaperScissors" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="RockPaperScissors" TARGET_NAME="RockPaperScissors" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="RockPaperScissors" RUN_TARGET_NAME="RockPaperScissors">
+    <configuration name="RockPaperScissors" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="3" PASS_PARENT_ENVS_2="true" PROJECT_NAME="RockPaperScissors" TARGET_NAME="RockPaperScissors" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="RockPaperScissors" RUN_TARGET_NAME="RockPaperScissors">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -72,7 +69,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571456091245</updated>
-      <workItem from="1571456092732" duration="9441000" />
+      <workItem from="1571456092732" duration="9682000" />
+      <workItem from="1571682986222" duration="550000" />
     </task>
     <servers />
   </component>
@@ -84,7 +82,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
