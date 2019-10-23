@@ -6,9 +6,10 @@
 int main(int argc, char** argv) {
     int seed;
     if(argc >= 2){
-      seed = std::chrono::system_clock::now().time_since_epoch().count();
+      seed = std::stoi(argv[1]);
     }
-    else{seed = std::stoi(argv[1]);}
+    else{seed = std::chrono::system_clock::now().time_since_epoch().count();}
+    std::cout << seed << std::endl;
     Player p1;
     Player ai;
     playGame(p1, ai, seed);
