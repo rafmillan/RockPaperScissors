@@ -12,10 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2ef0c85-0ebf-4474-b1bc-087ddbc9fe8d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RockPaperScissors.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/RockPaperScissors.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/RockPaperScissors" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/RockPaperScissors" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +67,7 @@
       <workItem from="1571456092732" duration="9682000" />
       <workItem from="1571682986222" duration="850000" />
       <workItem from="1571815861488" duration="31000" />
-      <workItem from="1571815905187" duration="2062000" />
+      <workItem from="1571815905187" duration="2242000" />
     </task>
     <servers />
   </component>

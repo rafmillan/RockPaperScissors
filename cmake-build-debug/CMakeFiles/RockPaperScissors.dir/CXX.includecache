@@ -13,6 +13,8 @@ iostream
 -
 string
 -
+string.h
+-
 vector
 -
 random

@@ -3,6 +3,7 @@
 //
 #include <iostream>
 #include <string>
+#include <string.h>
 #include <vector>
 #include <random>
 #include "RockPaperScissors.h"
@@ -24,7 +25,7 @@ do{
       std::cin >> replay;
       do {
         for (int i = 0; i < valid.size() - 1; i++) {
-          if (replay == valid.at(i)) //todo add case insensitivity
+          if (strcasecmp(reinterpret_cast<const char *>(&replay), reinterpret_cast<const char *>(&valid.at(i))) == 0)
             validInput = true;
           if (i < 3) {//yes
             winner = false;
@@ -52,7 +53,7 @@ void promptPlayer(Player& player){
     std::cout << "Enter (R)ock, P(aper), or (S)cissors for your move: ";
     std::cin >> input;
     for(int i = 0; i < valid.size()-1; i++){
-      if(input == valid.at(i)) //todo add case insensitivity
+      if(strcasecmp(reinterpret_cast<const char *>(&input), reinterpret_cast<const char *>(&valid.at(i))) == 0)
       {
         validInput = true;
         if(i < 3){//rock
