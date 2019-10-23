@@ -3,7 +3,7 @@
 //
 #include <iostream>
 #include <string>
-#include <string.h>
+#include <cstring>
 #include <vector>
 #include <random>
 #include "RockPaperScissors.h"

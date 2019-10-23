@@ -13,7 +13,7 @@ iostream
 -
 string
 -
-string.h
+cstring
 -
 vector
 -
